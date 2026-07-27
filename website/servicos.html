@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços | NetSecBR</title>
+    <meta name="description" content="Conheça nossas torres de serviço: Consultoria, Projetos, Operações, Cibersegurança, Cloud, IA e mais.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .page-header {
+            padding: 10rem 0 4rem;
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            text-align: center;
+        }
+        .page-header h1 { color: var(--color-white); }
+        .page-header p { color: rgba(255,255,255,0.8); }
+        
+        .service-tower {
+            padding: 4rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        .service-tower:nth-child(even) {
+            background-color: var(--color-light-gray);
+        }
+        .tower-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        .tower-info h2 {
+            color: var(--color-secondary);
+            margin-bottom: 1rem;
+        }
+        .tower-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            list-style: none;
+        }
+        .tower-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            font-weight: 500;
+            color: var(--color-dark-gray);
+        }
+        .tower-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--color-secondary);
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .tower-grid { grid-template-columns: 1fr; gap: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">NetSec<span>BR</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html" style="color: var(--color-secondary);">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="tecnologias.html">Tecnologias</a></li>
+                    <li><a href="contato.html" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Nossas Torres de Serviço</h1>
+            <p style="max-width: 700px; margin: 0 auto; font-size: 1.25rem;">Integração completa para suportar os pilares estratégicos da sua organização.</p>
+        </div>
+    </div>
+
+    <!-- Consultoria -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Consultoria</h2>
+                <p>Alinhamento estratégico entre TI e negócios. Desenhamos o futuro tecnológico da sua empresa com base em dados, melhores práticas e profundo conhecimento de mercado.</p>
+            </div>
+            <ul class="tower-list">
+                <li>Assessment Técnico e de Negócios</li>
+                <li>Arquitetura de Soluções</li>
+                <li>Roadmap Tecnológico</li>
+                <li>Governança de TI</li>
+                <li>Modernização de Legados</li>
+                <li>Transformação Digital</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Projetos</h2>
+                <p>Execução impecável. Nossa metodologia garante entregas no prazo, dentro do escopo e com os mais altos padrões de qualidade exigidos por ambientes corporativos.</p>
+            </div>
+            <ul class="tower-list">
+                <li>Implantações de Sistemas e Infra</li>
+                <li>Migrações Complexas</li>
+                <li>Upgrade de Ambientes</li>
+                <li>Rollout Nacional e Global</li>
+                <li>Gestão de Projetos (PMO)</li>
+                <li>Projetos Turn Key</li>
+                <li>Integrações de Sistemas</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Operações -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Operações</h2>
+                <p>Sustentação proativa. Garantimos a disponibilidade, performance e evolução contínua dos ambientes críticos que suportam o seu negócio 24 horas por dia.</p>
+            </div>
+            <ul class="tower-list">
+                <li>NOC 24x7</li>
+                <li>Business NOC (Foco no Negócio)</li>
+                <li>Service Desk Especializado</li>
+                <li>AMS (Application Management)</li>
+                <li>Sustentação de Ambientes</li>
+                <li>Monitoramento Avançado</li>
+                <li>Operação de Ambientes Críticos</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Cibersegurança -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Cibersegurança</h2>
+                <p>Proteção integral do seu ativo mais valioso: a informação. Adotamos a postura "Security by Design" em todas as camadas da infraestrutura e aplicações.</p>
+            </div>
+            <ul class="tower-list">
+                <li>SOC 24x7 (Security Operations Center)</li>
+                <li>SIEM, EDR e XDR</li>
+                <li>Gestão de Identidade (IAM)</li>
+                <li>Adequação à LGPD</li>
+                <li>Arquitetura Zero Trust</li>
+                <li>Resposta a Incidentes</li>
+                <li>Auditorias e Compliance</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Segurança Patrimonial Inteligente -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Segurança Patrimonial Inteligente</h2>
+                <p>Elevamos a segurança física ao estado da arte utilizando Inteligência Artificial, visão computacional e IoT para proteger seus ativos físicos.</p>
+            </div>
+            <ul class="tower-list">
+                <li>CFTV Inteligente com IA</li>
+                <li>Reconhecimento Facial Avançado</li>
+                <li>Leitura Automática de Placas (LPR)</li>
+                <li>Controle de Acesso Biométrico</li>
+                <li>Analytics de Vídeo por IA</li>
+                <li>Monitoramento Inteligente Integrado</li>
+                <li>Sensores IoT e Automação</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Cloud & Data Center -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Cloud & Data Center</h2>
+                <p>A base da sua operação digital. Desenhamos, migramos e operamos infraestruturas híbridas, garantindo escalabilidade, resiliência e otimização de custos (FinOps).</p>
+            </div>
+            <ul class="tower-list">
+                <li>AWS, Azure, Google e Oracle Cloud</li>
+                <li>Cloud Journey e Landing Zone</li>
+                <li>Backup e Disaster Recovery</li>
+                <li>Gestão de Custos Cloud (FinOps)</li>
+                <li>Retrofit de Data Center</li>
+                <li>Infraestrutura Crítica (Energia/Clima)</li>
+                <li>Move Add Change (MAC)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sistemas Corporativos & Dados -->
+    <section class="service-tower">
+        <div class="container tower-grid">
+            <div class="tower-info">
+                <h2>Sistemas, Dados & IA</h2>
+                <p>Extraindo o máximo valor das suas aplicações e dados. Modernizamos seu ERP e implementamos inteligência artificial para automatizar e otimizar processos.</p>
+            </div>
+            <ul class="tower-list">
+                <li>Sustentação SAP e ERPs</li>
+                <li>Mainframe (AS400, DB2)</li>
+                <li>Business Intelligence (Power BI)</li>
+                <li>Data Warehouse (Snowflake)</li>
+                <li>IA Aplicada aos Negócios</li>
+                <li>Copilots e Agentes Inteligentes</li>
+                <li>Machine Learning e Automação</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section section-dark" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1.5rem;">Precisa de uma solução sob medida?</h2>
+            <a href="contato.html" class="btn btn-primary" style="background-color: var(--color-white); color: var(--color-primary);">Fale com nossos Arquitetos de Solução</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white;">NetSec<span style="color: var(--color-secondary);">BR</span></a>
+                    <p style="margin-top: 1rem; font-size: 0.95rem;">Consultoria boutique especializada em tecnologia, operações críticas, IA e transformação digital.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="mailto:contato@netsecbr.com.br">contato@netsecbr.com.br</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 NetSecBR. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

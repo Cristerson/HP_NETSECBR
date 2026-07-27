@@ -1,0 +1,7 @@
+<slide id="capa">
+  <background color="brand"/>
+  <shape type="line" x="80" y="180" width="120" height="0" stroke="accent" stroke-width="4"/>
+  <text x="78" y="230" width="1000" height="180" font="display" size="64" color="#FFFFFF" wrap="true">NetSecBR</text>
+  <text x="80" y="400" width="900" height="80" font="heading" size="28" color="#FFFFFF" opacity="0.85" wrap="true">Consultoria Boutique em Tecnologia, Operações Críticas e Inteligência Artificial</text>
+  <text x="80" y="620" width="900" height="40" font="body" size="16" color="#FFFFFF" opacity="0.6" wrap="false">PESSOAS + PROCESSOS + TECNOLOGIA</text>
+</slide>

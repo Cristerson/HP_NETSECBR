@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções por Segmento | NetSecBR</title>
+    <meta name="description" content="Soluções tecnológicas desenhadas especificamente para os desafios do seu setor de atuação.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .page-header {
+            padding: 10rem 0 4rem;
+            background-color: var(--color-light-gray);
+            text-align: center;
+        }
+        .segments-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .segment-card {
+            background: var(--color-white);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+            border-bottom: 4px solid transparent;
+            transition: all var(--transition-fast);
+        }
+        .segment-card:hover {
+            transform: translateY(-5px);
+            border-bottom-color: var(--color-secondary);
+        }
+        .segment-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        .segment-card h3 {
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">NetSec<span>BR</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html" style="color: var(--color-secondary);">Soluções</a></li>
+                    <li><a href="tecnologias.html">Tecnologias</a></li>
+                    <li><a href="contato.html" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Soluções por Segmento</h1>
+            <p style="max-width: 700px; margin: 0 auto; font-size: 1.25rem;">Entendemos que cada indústria possui desafios únicos de compliance, performance e segurança.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="segments-grid">
+                <div class="segment-card">
+                    <div class="segment-icon">🏭</div>
+                    <h3>Indústria</h3>
+                    <p>Convergência segura entre TI e TO (Tecnologia de Automação). Implementação de IA na linha de produção e proteção contra ataques a sistemas de controle industrial.</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">🚗</div>
+                    <h3>Automotivo</h3>
+                    <p>Sustentação de cadeias de suprimentos complexas, integração de sistemas logísticos e garantia de alta disponibilidade para linhas de montagem (Just-in-Time).</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">🏥</div>
+                    <h3>Saúde</h3>
+                    <p>Proteção rigorosa de dados sensíveis de pacientes (LGPD/HIPAA), alta disponibilidade para sistemas hospitalares críticos e infraestrutura para telemedicina.</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">🛒</div>
+                    <h3>Varejo</h3>
+                    <p>Escalabilidade em nuvem para picos de demanda (Black Friday), segurança em transações de e-commerce e analytics para comportamento do consumidor.</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">🏦</div>
+                    <h3>Financeiro</h3>
+                    <p>Arquitetura Zero Trust, conformidade com regulamentações rigorosas do Banco Central, prevenção a fraudes com IA e sustentação de sistemas transacionais críticos.</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">📦</div>
+                    <h3>Logística</h3>
+                    <p>Rastreabilidade em tempo real, otimização de rotas via IA, integração de sistemas de armazém (WMS) e segurança patrimonial inteligente em centros de distribuição.</p>
+                </div>
+                <div class="segment-card">
+                    <div class="segment-icon">⚡</div>
+                    <h3>Energia</h3>
+                    <p>Monitoramento de infraestruturas distribuídas, proteção de redes elétricas inteligentes (Smart Grids) contra ciberataques e gestão de ativos críticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer reduzido -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none;">
+                &copy; 2026 NetSecBR. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

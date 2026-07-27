@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetSecBR | Consultoria em Tecnologia, IA e Operações Críticas</title>
+    <meta name="description" content="A NetSecBR é uma consultoria boutique especializada em tecnologia, operações críticas, inteligência artificial e transformação digital para médias e grandes empresas.">
+    <meta name="keywords" content="Consultoria de TI, Operações críticas de TI, Transformação digital, Cibersegurança, Inteligência artificial">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NetSecBR",
+      "url": "https://netsecbr.com.br",
+      "logo": "https://netsecbr.com.br/assets/logos/logo.png",
+      "description": "Consultoria boutique especializada em tecnologia, operações críticas, inteligência artificial e transformação digital."
+    }
+    </script>
+    
+    <style>
+        /* Estilos específicos da Home */
+        .hero {
+            background: linear-gradient(rgba(10,25,47,0.75), rgba(10,25,47,0.85)), url('../assets/images/hero_banner.jpg') center/cover no-repeat;
+            color: var(--color-white);
+        }
+        .hero h1, .hero p { color: var(--color-white); }
+        .hero {
+            padding: 12rem 0 8rem;
+            text-align: center;
+        }
+        .hero h1 {
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+        }
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 2.5rem;
+            font-size: 1.25rem;
+        }
+        .hero-btns {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .feature-card {
+            background: var(--color-white);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform var(--transition-fast);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--color-secondary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .integration-section {
+            text-align: center;
+        }
+        .integration-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+        .plus {
+            color: var(--color-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="../assets/logos/logo_netsecbr.png" alt="NetSecBR" style="height: 36px; vertical-align: middle;"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="tecnologias.html">Tecnologias</a></li>
+                    <li><a href="contato.html" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Orquestrando o Futuro das Operações Críticas e Inteligência Artificial.</h1>
+            <p>Não vendemos tecnologia. Entregamos resultados sólidos e escaláveis para ambientes corporativos complexos através da integração perfeita entre pessoas, processos e inovação.</p>
+            <div class="hero-btns">
+                <a href="servicos.html" class="btn btn-primary">Conheça Nossos Serviços</a>
+                <a href="contato.html" class="btn btn-outline">Fale com um Especialista</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferencial Section -->
+    <section class="section section-light integration-section">
+        <div class="container">
+            <h2>Nosso Diferencial Estratégico</h2>
+            <p style="max-width: 800px; margin: 0 auto;">Acreditamos que a verdadeira transformação digital não ocorre apenas com a adoção de novas ferramentas, mas com a sinergia absoluta dos pilares corporativos.</p>
+            
+            <div class="integration-circle">
+                <span>Pessoas</span>
+                <span class="plus">+</span>
+                <span>Processos</span>
+                <span class="plus">+</span>
+                <span>Tecnologia</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Overview Section -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Excelência em Cada Vertical</h2>
+                <p>Soluções consultivas e executivas para os desafios mais complexos da sua organização.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Cibersegurança & SOC</h3>
+                    <p>Proteção proativa, monitoramento contínuo e resposta a incidentes para garantir a integridade dos seus dados e a continuidade do negócio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Cloud Journey</h3>
+                    <p>Arquitetura, migração e sustentação em ambientes AWS, Azure e Google Cloud, otimizando custos e maximizando a disponibilidade.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Inteligência Artificial</h3>
+                    <p>Aplicações de IA voltadas para negócios e operações, automação inteligente e machine learning para tomada de decisão baseada em dados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Operações (NOC 24x7)</h3>
+                    <p>Monitoramento e sustentação de ambientes críticos. Nosso Business NOC garante que a tecnologia suporte os objetivos do negócio sem interrupções.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Sistemas Corporativos</h3>
+                    <p>Sustentação e evolução de plataformas complexas como SAP, DB2, AS400 e arquiteturas de banco de dados corporativos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Consultoria Estratégica</h3>
+                    <p>Assessments, roadmap tecnológico e arquitetura de soluções desenhadas sob medida para o momento e os objetivos da sua empresa.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="servicos.html" class="btn btn-outline">Ver Todas as Torres de Serviço</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-dark" style="text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 1.5rem;">Pronto para elevar a maturidade tecnológica da sua empresa?</h2>
+            <p style="margin-bottom: 2.5rem; font-size: 1.25rem;">Converse com nossos executivos e descubra como podemos apoiar sua jornada de transformação.</p>
+            <a href="contato.html" class="btn btn-primary" style="background-color: var(--color-white); color: var(--color-primary);">Agendar Reunião Executiva</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white;">NetSec<span style="color: var(--color-secondary);">BR</span></a>
+                    <p style="margin-top: 1rem; font-size: 0.95rem;">Consultoria boutique especializada em tecnologia, operações críticas, IA e transformação digital.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="sobre.html">Quem Somos</a></li>
+                        <li><a href="solucoes.html">Soluções por Segmento</a></li>
+                        <li><a href="tecnologias.html">Tecnologias Suportadas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html">Consultoria & Projetos</a></li>
+                        <li><a href="servicos.html">Cibersegurança & Cloud</a></li>
+                        <li><a href="servicos.html">Operações & NOC</a></li>
+                        <li><a href="servicos.html">Inteligência Artificial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="mailto:contato@netsecbr.com.br">contato@netsecbr.com.br</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 NetSecBR. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

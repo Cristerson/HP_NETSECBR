@@ -1,0 +1,25 @@
+<slide id="diferenciais">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Por Que Escolher a NetSecBR</text>
+
+  <icon name="award" x="80" y="210" width="36" height="36" color="accent"/>
+  <text x="140" y="205" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Maturidade técnica comprovada em ambientes enterprise</text>
+
+  <icon name="target" x="680" y="210" width="36" height="36" color="accent"/>
+  <text x="740" y="205" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Execução impecável com foco em resultados de negócio</text>
+
+  <icon name="handshake" x="80" y="330" width="36" height="36" color="accent"/>
+  <text x="140" y="325" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Posicionamento consultivo, não apenas infraestrutura</text>
+
+  <icon name="users" x="680" y="330" width="36" height="36" color="accent"/>
+  <text x="740" y="325" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Integração real entre pessoas, processos e tecnologia</text>
+
+  <icon name="shield-check" x="80" y="450" width="36" height="36" color="accent"/>
+  <text x="140" y="445" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Segurança by design em todas as soluções entregues</text>
+
+  <icon name="lightbulb" x="680" y="450" width="36" height="36" color="accent"/>
+  <text x="740" y="445" width="440" height="80" font="strong" size="17" color="brand" line-height="1.4" wrap="true">Inovação pragmática com retorno sobre investimento claro</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">16</text>
+</slide>

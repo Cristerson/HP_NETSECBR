@@ -1,0 +1,27 @@
+<slide id="ciberseguranca">
+  <background color="brand"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="#FFFFFF" wrap="true">Proteção Integral da Informação</text>
+
+  <shape type="rect" x="80" y="220" width="260" height="320" fill="#FFFFFF10"/>
+  <icon name="shield-check" x="112" y="252" width="36" height="36" color="accent"/>
+  <text x="112" y="304" width="200" height="40" font="strong" size="17" color="#FFFFFF" wrap="true">SOC 24x7</text>
+  <text x="112" y="350" width="200" height="150" font="body" size="14" color="#FFFFFF" opacity="0.75" wrap="true">Security Operations Center com monitoramento contínuo</text>
+
+  <shape type="rect" x="360" y="220" width="260" height="320" fill="#FFFFFF10"/>
+  <icon name="database" x="392" y="252" width="36" height="36" color="accent"/>
+  <text x="392" y="304" width="200" height="40" font="strong" size="17" color="#FFFFFF" wrap="true">SIEM, EDR e XDR</text>
+  <text x="392" y="350" width="200" height="150" font="body" size="14" color="#FFFFFF" opacity="0.75" wrap="true">Detecção e resposta avançada em toda a superfície de ataque</text>
+
+  <shape type="rect" x="640" y="220" width="260" height="320" fill="#FFFFFF10"/>
+  <icon name="lock" x="672" y="252" width="36" height="36" color="accent"/>
+  <text x="672" y="304" width="200" height="40" font="strong" size="17" color="#FFFFFF" wrap="true">IAM e Zero Trust</text>
+  <text x="672" y="350" width="200" height="150" font="body" size="14" color="#FFFFFF" opacity="0.75" wrap="true">Gestão de identidade e arquitetura de confiança zero</text>
+
+  <shape type="rect" x="920" y="220" width="260" height="320" fill="#FFFFFF10"/>
+  <icon name="clipboard-list" x="952" y="252" width="36" height="36" color="accent"/>
+  <text x="952" y="304" width="200" height="40" font="strong" size="17" color="#FFFFFF" wrap="true">LGPD e Compliance</text>
+  <text x="952" y="350" width="200" height="150" font="body" size="14" color="#FFFFFF" opacity="0.75" wrap="true">Auditorias, conformidade regulatória e resposta a incidentes</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="#FFFFFF" opacity="0.6" align="right" wrap="false">08</text>
+</slide>

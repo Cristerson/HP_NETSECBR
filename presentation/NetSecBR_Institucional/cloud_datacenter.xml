@@ -1,0 +1,27 @@
+<slide id="cloud_datacenter">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Infraestrutura em Nuvem e Data Center</text>
+
+  <shape type="rect" x="80" y="200" width="150" height="60" fill="mist"/>
+  <text x="80" y="218" width="150" height="30" font="strong" size="16" color="brand" align="center" wrap="true">AWS</text>
+  <shape type="rect" x="250" y="200" width="150" height="60" fill="mist"/>
+  <text x="250" y="218" width="150" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Azure</text>
+  <shape type="rect" x="80" y="280" width="150" height="60" fill="mist"/>
+  <text x="80" y="298" width="150" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Google Cloud</text>
+  <shape type="rect" x="250" y="280" width="150" height="60" fill="mist"/>
+  <text x="250" y="298" width="150" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Oracle Cloud</text>
+
+  <text x="80" y="400" width="440" height="200" font="body" size="16" color="muted" line-height="1.6" wrap="true">Arquitetura, migração e sustentação em ambientes híbridos, garantindo escalabilidade e resiliência.</text>
+
+  <text x="680" y="200" width="500" height="440" font="body" size="18" color="ink" line-height="1.6">
+    <ul bullet="—">
+      <li><strong color="brand">Cloud Journey e Landing Zone</strong> — estruturação segura da jornada para nuvem</li>
+      <li><strong color="brand">Backup e Disaster Recovery</strong> — continuidade de negócio garantida</li>
+      <li><strong color="brand">FinOps</strong> — gestão e otimização de custos em nuvem</li>
+      <li><strong color="brand">Retrofit de Data Center</strong> — modernização de infraestrutura crítica (energia, climatização, cabeamento)</li>
+    </ul>
+  </text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">10</text>
+</slide>

@@ -1,0 +1,18 @@
+<slide id="contato">
+  <background color="brand"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="700" height="60" font="heading" size="34" color="#FFFFFF" wrap="true">Vamos Conversar</text>
+
+  <text x="80" y="220" width="500" height="120" font="body" size="20" color="#FFFFFF" opacity="0.85" line-height="1.5" wrap="true">Agende uma reunião executiva e descubra como podemos transformar a operação da sua empresa.</text>
+
+  <icon name="mail" x="700" y="220" width="28" height="28" color="accent"/>
+  <text x="745" y="222" width="450" height="30" font="strong" size="17" color="#FFFFFF" wrap="true">contato@netsecbr.com.br</text>
+
+  <icon name="phone" x="700" y="280" width="28" height="28" color="accent"/>
+  <text x="745" y="282" width="450" height="30" font="strong" size="17" color="#FFFFFF" wrap="true">+55 (11) 3000-0000</text>
+
+  <icon name="send" x="700" y="340" width="28" height="28" color="accent"/>
+  <text x="745" y="342" width="450" height="30" font="strong" size="17" color="#FFFFFF" wrap="true">WhatsApp +55 (11) 99999-9999</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="#FFFFFF" opacity="0.6" align="right" wrap="false">19</text>
+</slide>

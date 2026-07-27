@@ -1,0 +1,22 @@
+<slide id="sistemas_corporativos">
+  <background color="mist"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Sustentação de Sistemas Críticos</text>
+
+  <shape type="rect" x="80" y="200" width="340" height="380" fill="paper"/>
+  <shape type="line" x="80" y="200" width="340" height="0" stroke="accent" stroke-width="3"/>
+  <text x="110" y="230" width="280" height="40" font="strong" size="20" color="brand" wrap="true">ERP e SAP</text>
+  <text x="110" y="280" width="280" height="280" font="body" size="15" color="muted" line-height="1.6" wrap="true">Sustentação e evolução contínua de SAP e demais plataformas de ERP corporativo, com AMS especializado.</text>
+
+  <shape type="rect" x="460" y="200" width="340" height="380" fill="paper"/>
+  <shape type="line" x="460" y="200" width="340" height="0" stroke="accent" stroke-width="3"/>
+  <text x="490" y="230" width="280" height="40" font="strong" size="20" color="brand" wrap="true">Mainframe</text>
+  <text x="490" y="280" width="280" height="280" font="body" size="15" color="muted" line-height="1.6" wrap="true">Suporte a ambientes AS400 e DB2, Control-M, GeneXus e LabVIEW, com continuidade operacional garantida.</text>
+
+  <shape type="rect" x="840" y="200" width="340" height="380" fill="paper"/>
+  <shape type="line" x="840" y="200" width="340" height="0" stroke="accent" stroke-width="3"/>
+  <text x="870" y="230" width="280" height="40" font="strong" size="20" color="brand" wrap="true">Dados e BI</text>
+  <text x="870" y="280" width="280" height="280" font="body" size="15" color="muted" line-height="1.6" wrap="true">Business Intelligence com Power BI e Data Warehouse em Snowflake, com governança de dados corporativos.</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">11</text>
+</slide>

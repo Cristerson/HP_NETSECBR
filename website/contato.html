@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | NetSecBR</title>
+    <meta name="description" content="Fale com nossos executivos e agende uma reunião estratégica para sua empresa.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .page-header {
+            padding: 10rem 0 4rem;
+            background-color: var(--color-light-gray);
+            text-align: center;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+        .contact-info h3 {
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+        }
+        .info-item {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        .info-icon {
+            font-size: 1.5rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--color-primary);
+        }
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">NetSec<span>BR</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="tecnologias.html">Tecnologias</a></li>
+                    <li><a href="contato.html" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Fale com um Especialista</h1>
+            <p style="max-width: 700px; margin: 0 auto; font-size: 1.25rem;">Agende uma reunião executiva para discutirmos os desafios tecnológicos da sua organização.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container contact-grid">
+            
+            <!-- Informações de Contato -->
+            <div class="contact-info">
+                <h3>Canais de Atendimento</h3>
+                
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <strong>Email Corporativo</strong><br>
+                        <a href="mailto:contato@netsecbr.com.br">contato@netsecbr.com.br</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div>
+                        <strong>WhatsApp Business</strong><br>
+                        <a href="#">+55 (11) 99999-9999</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <strong>Telefone</strong><br>
+                        <a href="#">+55 (11) 3000-0000</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">🏢</div>
+                    <div>
+                        <strong>Sede Executiva</strong><br>
+                        <p style="margin:0;">Av. Engenheiro Luís Carlos Berrini, 1000<br>São Paulo - SP, Brasil</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2rem; width: 100%; height: 250px; background-color: var(--color-light-gray); display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+                    <span style="color: var(--color-gray);">[ Mapa Interativo ]</span>
+                </div>
+            </div>
+
+            <!-- Formulário -->
+            <div class="contact-form">
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Nossos executivos entrarão em contato em breve.');">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cargo">Cargo</label>
+                        <input type="text" id="cargo" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Corporativo</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Como podemos ajudar?</label>
+                        <textarea id="mensagem" class="form-control" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Solicitar Contato</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer reduzido -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none;">
+                &copy; 2026 NetSecBR. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

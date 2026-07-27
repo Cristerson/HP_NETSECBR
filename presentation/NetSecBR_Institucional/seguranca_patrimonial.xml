@@ -1,0 +1,21 @@
+<slide id="seguranca_patrimonial">
+  <background type="image" src="https://private-us-east-1.manuscdn.com/sessionFile/SIPT8o6T3I8h2NE08UMen6/sandbox/slides_resource_ir4mqot0ior6lcmlkyviv-583fa834-e2b-prod-us1_1785166430459_na1fn_L2hvbWUvdWJ1bnR1L25ldHNlY2JyL3ByZXNlbnRhdGlvbi9OZXRTZWNCUl9JbnN0aXR1Y2lvbmFsL2Fzc2V0cy9zZWN1cml0eV9wYXRyaW1vbmlhbA.jpg?x-oss-process=image/resize,w_1560,h_1560/format,webp&Expires=1786752000&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvU0lQVDhvNlQzSThoMk5FMDhVTWVuNi9zYW5kYm94L3NsaWRlc19yZXNvdXJjZV9pcjRtcW90MGlvcjZsY21sa3l2aXYtNTgzZmE4MzQtZTJiLXByb2QtdXMxXzE3ODUxNjY0MzA0NTlfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwyNWxkSE5sWTJKeUwzQnlaWE5sYm5SaGRHbHZiaTlPWlhSVFpXTkNVbDlKYm5OMGFYUjFZMmx2Ym1Gc0wyRnpjMlYwY3k5elpXTjFjbWwwZVY5d1lYUnlhVzF2Ym1saGJBLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE1NjAsaF8xNTYwL2Zvcm1hdCx3ZWJwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg2NzUyMDAwfX19XX0_&Key-Pair-Id=K2QY5QTL8JSY6C&Signature=MEYCIQDW2W65LC2vK~dt-5n0nTycHAkzDzkylHrDHC46etLNqwIhAPHWwHKNMSb1WR458qo7qsRGqzgXb7Rr5rQdpb44Ry5l" fit="cover">
+    <overlay direction="90">
+      <stop offset="0%" color="#0A192F30"/>
+      <stop offset="55%" color="#0A192F10"/>
+      <stop offset="100%" color="#0A192FE6"/>
+    </overlay>
+  </background>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="800" height="60" font="heading" size="34" color="#FFFFFF" wrap="true">Segurança Física com IA</text>
+
+  <text x="80" y="520" width="1120" height="140" font="body" size="16" color="#FFFFFF" line-height="1.6">
+    <ul bullet="—">
+      <li>CFTV inteligente e reconhecimento facial</li>
+      <li>Leitura automática de placas (LPR) e controle de acesso biométrico</li>
+      <li>Analytics de vídeo por IA, sensores IoT e automação de segurança</li>
+    </ul>
+  </text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="#FFFFFF" opacity="0.7" align="right" wrap="false">09</text>
+</slide>

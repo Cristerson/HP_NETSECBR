@@ -1,0 +1,24 @@
+<slide id="casos_uso">
+  <background color="mist"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Transformação Comprovada</text>
+  <text x="80" y="150" width="1100" height="40" font="body" size="16" color="muted" wrap="true">Exemplos representativos de iniciativas que conduzimos para clientes corporativos</text>
+
+  <shape type="rect" x="80" y="220" width="520" height="180" fill="paper"/>
+  <text x="110" y="240" width="460" height="30" font="strong" size="17" color="brand" wrap="true">Migração para Nuvem</text>
+  <text x="110" y="275" width="460" height="110" font="body" size="14" color="muted" line-height="1.5" wrap="true">Migração de ambientes críticos para nuvem pública com continuidade operacional total.</text>
+
+  <shape type="rect" x="640" y="220" width="520" height="180" fill="paper"/>
+  <text x="670" y="240" width="460" height="30" font="strong" size="17" color="brand" wrap="true">Implementação de SOC</text>
+  <text x="670" y="275" width="460" height="110" font="body" size="14" color="muted" line-height="1.5" wrap="true">Estruturação de Centro de Operações de Segurança reduzindo o tempo de resposta a incidentes.</text>
+
+  <shape type="rect" x="80" y="420" width="520" height="180" fill="paper"/>
+  <text x="110" y="440" width="460" height="30" font="strong" size="17" color="brand" wrap="true">Modernização de Mainframe</text>
+  <text x="110" y="475" width="460" height="110" font="body" size="14" color="muted" line-height="1.5" wrap="true">Evolução de ambientes legados com automação inteligente de processos operacionais.</text>
+
+  <shape type="rect" x="640" y="420" width="520" height="180" fill="paper"/>
+  <text x="670" y="440" width="460" height="30" font="strong" size="17" color="brand" wrap="true">Arquitetura Zero Trust</text>
+  <text x="670" y="475" width="460" height="110" font="body" size="14" color="muted" line-height="1.5" wrap="true">Implementação de arquitetura de confiança zero em corporações do setor financeiro.</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">15</text>
+</slide>

@@ -1,0 +1,19 @@
+<slide id="modelo_engajamento">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Formas de Trabalho</text>
+
+  <shape type="rect" x="80" y="190" width="360" height="360" fill="mist"/>
+  <text x="112" y="220" width="296" height="40" font="strong" size="19" color="brand" wrap="true">Consultoria Estratégica</text>
+  <text x="112" y="270" width="296" height="250" font="body" size="15" color="muted" line-height="1.6" wrap="true">Assessoria executiva contínua para orientar decisões tecnológicas de alto impacto.</text>
+
+  <shape type="rect" x="460" y="190" width="360" height="360" fill="brand"/>
+  <text x="492" y="220" width="296" height="40" font="strong" size="19" color="#FFFFFF" wrap="true">Projetos com PMO</text>
+  <text x="492" y="270" width="296" height="250" font="body" size="15" color="#FFFFFF" opacity="0.85" line-height="1.6" wrap="true">Escopo definido, cronograma e governança rigorosa até a entrega final.</text>
+
+  <shape type="rect" x="840" y="190" width="360" height="360" fill="mist"/>
+  <text x="872" y="220" width="296" height="40" font="strong" size="19" color="brand" wrap="true">Serviços Gerenciados</text>
+  <text x="872" y="270" width="296" height="250" font="body" size="15" color="muted" line-height="1.6" wrap="true">AMS e NOC sob demanda, com modelos híbridos e parcerias de longo prazo.</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">18</text>
+</slide>

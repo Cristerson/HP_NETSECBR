@@ -1,0 +1,34 @@
+<slide id="metodologia">
+  <background color="mist"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Nossa Abordagem Executiva</text>
+
+  <shape type="line" x="150" y="330" width="980" height="0" stroke="hairline" stroke-width="2"/>
+
+  <shape type="ellipse" x="120" y="300" width="60" height="60" fill="brand"/>
+  <text x="120" y="318" width="60" height="26" font="strong" size="20" color="#FFFFFF" align="center" wrap="false">1</text>
+  <text x="70" y="380" width="160" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Assess</text>
+  <text x="60" y="415" width="180" height="60" font="body" size="13" color="muted" align="center" wrap="true">Diagnóstico profundo</text>
+
+  <shape type="ellipse" x="365" y="300" width="60" height="60" fill="brand"/>
+  <text x="365" y="318" width="60" height="26" font="strong" size="20" color="#FFFFFF" align="center" wrap="false">2</text>
+  <text x="315" y="380" width="160" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Design</text>
+  <text x="305" y="415" width="180" height="60" font="body" size="13" color="muted" align="center" wrap="true">Arquitetura sob medida</text>
+
+  <shape type="ellipse" x="610" y="300" width="60" height="60" fill="brand"/>
+  <text x="610" y="318" width="60" height="26" font="strong" size="20" color="#FFFFFF" align="center" wrap="false">3</text>
+  <text x="560" y="380" width="160" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Implement</text>
+  <text x="550" y="415" width="180" height="60" font="body" size="13" color="muted" align="center" wrap="true">Execução com excelência</text>
+
+  <shape type="ellipse" x="855" y="300" width="60" height="60" fill="brand"/>
+  <text x="855" y="318" width="60" height="26" font="strong" size="20" color="#FFFFFF" align="center" wrap="false">4</text>
+  <text x="805" y="380" width="160" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Operate</text>
+  <text x="795" y="415" width="180" height="60" font="body" size="13" color="muted" align="center" wrap="true">Sustentação contínua</text>
+
+  <shape type="ellipse" x="1100" y="300" width="60" height="60" fill="accent"/>
+  <text x="1100" y="318" width="60" height="26" font="strong" size="20" color="#FFFFFF" align="center" wrap="false">5</text>
+  <text x="1050" y="380" width="160" height="30" font="strong" size="16" color="brand" align="center" wrap="true">Optimize</text>
+  <text x="1040" y="415" width="180" height="60" font="body" size="13" color="muted" align="center" wrap="true">Melhoria contínua</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">17</text>
+</slide>

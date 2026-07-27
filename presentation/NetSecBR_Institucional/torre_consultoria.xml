@@ -1,0 +1,23 @@
+<slide id="torre_consultoria">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="700" height="60" font="heading" size="34" color="brand" wrap="true">Consultoria Estratégica</text>
+  <text x="80" y="180" width="460" height="420" font="body" size="18" color="muted" line-height="1.5" wrap="true">Alinhamento estratégico entre TI e negócios. Desenhamos o futuro tecnológico da sua empresa com base em dados, melhores práticas e profundo conhecimento de mercado.</text>
+
+  <shape type="rect" x="600" y="180" width="280" height="110" fill="mist"/>
+  <text x="624" y="200" width="232" height="70" font="strong" size="16" color="brand" wrap="true">Assessment Técnico e de Negócios</text>
+
+  <shape type="rect" x="900" y="180" width="280" height="110" fill="mist"/>
+  <text x="924" y="200" width="232" height="70" font="strong" size="16" color="brand" wrap="true">Arquitetura de Soluções</text>
+
+  <shape type="rect" x="600" y="310" width="280" height="110" fill="mist"/>
+  <text x="624" y="330" width="232" height="70" font="strong" size="16" color="brand" wrap="true">Roadmap Tecnológico</text>
+
+  <shape type="rect" x="900" y="310" width="280" height="110" fill="mist"/>
+  <text x="924" y="330" width="232" height="70" font="strong" size="16" color="brand" wrap="true">Governança de TI</text>
+
+  <shape type="rect" x="600" y="440" width="580" height="110" fill="mist"/>
+  <text x="624" y="460" width="532" height="70" font="strong" size="16" color="brand" wrap="true">Modernização de Ambientes Legados</text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">05</text>
+</slide>

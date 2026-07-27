@@ -1,0 +1,15 @@
+<design>
+  <size width="1280" height="720"></size>
+  <color name="brand" value="#0A192F"/>
+  <color name="accent" value="#0070F3"/>
+  <color name="paper" value="#FFFFFF"/>
+  <color name="mist" value="#F3F4F6"/>
+  <color name="ink" value="#111827"/>
+  <color name="muted" value="#6B7280"/>
+  <color name="hairline" value="#E5E7EB"/>
+  <font name="display" family="Plus Jakarta Sans" size="48"/>
+  <font name="heading" family="Plus Jakarta Sans" size="32"/>
+  <font name="strong" family="Inter" size="20"/>
+  <font name="body" family="Inter" size="18"/>
+  <font name="caption" family="Inter" size="14"/>
+</design>

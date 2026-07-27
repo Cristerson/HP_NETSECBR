@@ -1,0 +1,23 @@
+<slide id="posicionamento">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="700" height="60" font="heading" size="34" color="brand" wrap="true">O Diferencial NetSecBR</text>
+
+  <shape type="rect" x="80" y="200" width="340" height="280" fill="mist" corner-radius="0"/>
+  <icon name="users" x="120" y="240" width="40" height="40" color="accent"/>
+  <text x="120" y="300" width="260" height="40" font="strong" size="22" color="brand" wrap="true">Pessoas</text>
+  <text x="120" y="350" width="260" height="110" font="body" size="16" color="muted" wrap="true">Equipes altamente capacitadas, com maturidade técnica e visão de negócio.</text>
+
+  <shape type="rect" x="460" y="200" width="340" height="280" fill="mist" corner-radius="0"/>
+  <icon name="settings" x="500" y="240" width="40" height="40" color="accent"/>
+  <text x="500" y="300" width="260" height="40" font="strong" size="22" color="brand" wrap="true">Processos</text>
+  <text x="500" y="350" width="260" height="110" font="body" size="16" color="muted" wrap="true">Governança e metodologia consolidada em cada etapa de execução.</text>
+
+  <shape type="rect" x="840" y="200" width="340" height="280" fill="mist" corner-radius="0"/>
+  <icon name="cpu" x="880" y="240" width="40" height="40" color="accent"/>
+  <text x="880" y="300" width="260" height="40" font="strong" size="22" color="brand" wrap="true">Tecnologia</text>
+  <text x="880" y="350" width="260" height="110" font="body" size="16" color="muted" wrap="true">Plataformas e inovação aplicadas com foco em resultado, não em produto.</text>
+
+  <text x="80" y="540" width="1100" height="60" font="heading" size="22" color="ink" align="left" wrap="true">Não vendemos tecnologia. Vendemos transformação e excelência executiva.</text>
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">04</text>
+</slide>

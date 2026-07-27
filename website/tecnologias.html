@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Suportadas | NetSecBR</title>
+    <meta name="description" content="Ecossistema tecnológico suportado pela NetSecBR: AWS, Azure, SAP, Oracle, e mais.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .page-header {
+            padding: 10rem 0 4rem;
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            text-align: center;
+        }
+        .page-header h1 { color: var(--color-white); }
+        .page-header p { color: rgba(255,255,255,0.8); }
+        
+        .tech-category {
+            margin-bottom: 4rem;
+        }
+        .tech-category h2 {
+            border-bottom: 2px solid var(--color-light-gray);
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        .tech-item {
+            background: var(--color-light-gray);
+            padding: 1.5rem 1rem;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: 600;
+            color: var(--color-dark-gray);
+            transition: all var(--transition-fast);
+        }
+        .tech-item:hover {
+            background: var(--color-secondary);
+            color: var(--color-white);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">NetSec<span>BR</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="tecnologias.html" style="color: var(--color-secondary);">Tecnologias</a></li>
+                    <li><a href="contato.html" class="btn btn-primary" style="padding: 0.5rem 1.5rem; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Ecossistema Tecnológico</h1>
+            <p style="max-width: 700px; margin: 0 auto; font-size: 1.25rem;">Nossos especialistas possuem profundo conhecimento nas principais plataformas e frameworks que movem o mercado corporativo global.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            
+            <div class="tech-category">
+                <h2>Cloud & Infraestrutura</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">AWS</div>
+                    <div class="tech-item">Microsoft Azure</div>
+                    <div class="tech-item">Google Cloud</div>
+                    <div class="tech-item">Oracle Cloud</div>
+                    <div class="tech-item">VMware</div>
+                    <div class="tech-item">Linux</div>
+                    <div class="tech-item">Windows Server</div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2>Sistemas Corporativos & ERP</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">SAP</div>
+                    <div class="tech-item">AS400</div>
+                    <div class="tech-item">Control-M</div>
+                    <div class="tech-item">GeneXus</div>
+                    <div class="tech-item">LabVIEW</div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2>Dados & Banco de Dados</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">Oracle DB</div>
+                    <div class="tech-item">DB2</div>
+                    <div class="tech-item">SQL Server</div>
+                    <div class="tech-item">Snowflake</div>
+                    <div class="tech-item">Power BI</div>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <h2>Modernização & Containers</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">Docker</div>
+                    <div class="tech-item">Kubernetes</div>
+                    <div class="tech-item">Microserviços</div>
+                    <div class="tech-item">DevSecOps</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer reduzido -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none;">
+                &copy; 2026 NetSecBR. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

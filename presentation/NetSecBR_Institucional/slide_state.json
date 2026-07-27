@@ -1,0 +1,232 @@
+{
+  "project_info": {
+    "title": "NetSecBR",
+    "created": 1785166207.133,
+    "last_updated": 1785166637.198,
+    "total_slides": 20
+  },
+  "slides": [
+    {
+      "id": "capa",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "quem_somos",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "nossa_visao",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "posicionamento",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "torre_consultoria",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "torre_projetos",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "torre_operacoes",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "ciberseguranca",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "seguranca_patrimonial",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "cloud_datacenter",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "sistemas_corporativos",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "inteligencia_artificial",
+      "state": "edited",
+      "pageNum": 12
+    },
+    {
+      "id": "solucoes_segmento",
+      "state": "edited",
+      "pageNum": 13
+    },
+    {
+      "id": "tecnologias",
+      "state": "edited",
+      "pageNum": 14
+    },
+    {
+      "id": "casos_uso",
+      "state": "edited",
+      "pageNum": 15
+    },
+    {
+      "id": "diferenciais",
+      "state": "edited",
+      "pageNum": 16
+    },
+    {
+      "id": "metodologia",
+      "state": "edited",
+      "pageNum": 17
+    },
+    {
+      "id": "modelo_engajamento",
+      "state": "edited",
+      "pageNum": 18
+    },
+    {
+      "id": "contato",
+      "state": "edited",
+      "pageNum": 19
+    },
+    {
+      "id": "encerramento",
+      "state": "edited",
+      "pageNum": 20
+    }
+  ],
+  "outline": [
+    {
+      "id": "capa",
+      "title": "NetSecBR",
+      "summary": "Slide de abertura com nome da empresa, posicionamento como consultoria boutique em tecnologia, operações críticas e inteligência artificial.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "quem_somos",
+      "title": "Quem Somos",
+      "summary": "Consultoria boutique especializada em tecnologia, operações críticas, IA e transformação digital para médias e grandes empresas. Posicionamento executivo e consultivo.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "nossa_visao",
+      "title": "Nossa Visão de Futuro",
+      "summary": "Ser reconhecida como a consultoria de tecnologia mais confiável, estabelecendo o padrão em integração de pessoas, processos e tecnologia.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "posicionamento",
+      "title": "O Diferencial NetSecBR",
+      "summary": "Pessoas + Processos + Tecnologia = Resultados. Não vendemos tecnologia, vendemos transformação e excelência executiva.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "torre_consultoria",
+      "title": "Consultoria Estratégica",
+      "summary": "Assessment, arquitetura de soluções, roadmap tecnológico, governança de TI e modernização de ambientes legados.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "torre_projetos",
+      "title": "Execução de Projetos",
+      "summary": "Implantações, migrações, upgrades, rollouts globais, PMO, projetos Turn Key e integrações de sistemas.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "torre_operacoes",
+      "title": "Operações Críticas 24x7",
+      "summary": "NOC 24 horas, Business NOC, Service Desk especializado, AMS e monitoramento avançado de ambientes críticos.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "ciberseguranca",
+      "title": "Proteção Integral da Informação",
+      "summary": "SOC 24x7, SIEM, EDR, XDR, IAM, arquitetura Zero Trust, conformidade LGPD e resposta a incidentes.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "seguranca_patrimonial",
+      "title": "Segurança Física com IA",
+      "summary": "CFTV inteligente, reconhecimento facial, leitura automática de placas, controle de acesso biométrico e analytics por IA.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "cloud_datacenter",
+      "title": "Infraestrutura em Nuvem e Data Center",
+      "summary": "AWS, Azure, Google Cloud, Oracle Cloud, Cloud Journey, backup, disaster recovery, FinOps e retrofit de data centers.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "sistemas_corporativos",
+      "title": "Sustentação de Sistemas Críticos",
+      "summary": "Sustentação de SAP e ERPs, mainframe AS400/DB2, Business Intelligence Power BI, Data Warehouse Snowflake.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "inteligencia_artificial",
+      "title": "IA Aplicada aos Negócios",
+      "summary": "IA aplicada a operações e negócios, copilots, agentes inteligentes, machine learning e automação de processos.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "solucoes_segmento",
+      "title": "Expertise em Verticais de Mercado",
+      "summary": "Soluções especializadas para Indústria, Automotivo, Saúde, Varejo, Financeiro, Logística e Energia.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "tecnologias",
+      "title": "Ecossistema Tecnológico Completo",
+      "summary": "Cloud (AWS, Azure, GCP, Oracle), sistemas (SAP, AS400, DB2), dados (Snowflake, Power BI), modernização (Docker, Kubernetes).",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "casos_uso",
+      "title": "Transformação Comprovada",
+      "summary": "Exemplos de tipos de projetos executados: migração para nuvem, implementação de SOC, modernização de mainframe, Zero Trust, FinOps.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "diferenciais",
+      "title": "Por Que Escolher a NetSecBR",
+      "summary": "Maturidade técnica, execução impecável, posicionamento consultivo, integração de pessoas e tecnologia, segurança by design.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "metodologia",
+      "title": "Nossa Abordagem Executiva",
+      "summary": "Metodologia em 5 etapas: Assess, Design, Implement, Operate, Optimize.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "modelo_engajamento",
+      "title": "Formas de Trabalho",
+      "summary": "Consultoria estratégica, projetos com PMO, serviços gerenciados (AMS/NOC), modelos híbridos e parcerias de longo prazo.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "contato",
+      "title": "Vamos Conversar",
+      "summary": "Informações de contato: email, telefone, WhatsApp e convite para agendar reunião executiva.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "encerramento",
+      "title": "Transformando Complexidade em Vantagem",
+      "summary": "Slide de encerramento com mensagem final e reforço da marca NetSecBR.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<slide id="nossa_visao">
+  <background color="mist"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="600" height="60" font="heading" size="34" color="brand" wrap="true">Nossa Visão de Futuro</text>
+  <text x="140" y="260" width="1000" height="240" font="display" size="40" color="ink" line-height="1.35" wrap="true">Ser reconhecida pelas principais corporações do mercado como a consultoria de tecnologia mais confiável, estabelecendo o padrão em integração de pessoas, processos e tecnologia.</text>
+  <text x="140" y="540" width="1000" height="40" font="body" size="18" color="muted" wrap="true">Transformando complexidade tecnológica em vantagem competitiva clara e mensurável.</text>
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">03</text>
+</slide>

@@ -1,0 +1,28 @@
+<slide id="tecnologias">
+  <background color="paper"/>
+  <shape type="line" x="80" y="60" width="60" height="0" stroke="accent" stroke-width="3"/>
+  <text x="80" y="80" width="900" height="60" font="heading" size="34" color="brand" wrap="true">Ecossistema Tecnológico Completo</text>
+
+  <shape type="line" x="80" y="190" width="0" height="380" stroke="hairline" stroke-width="1"/>
+  <text x="80" y="200" width="260" height="30" font="strong" size="16" color="accent" wrap="true">CLOUD</text>
+  <text x="80" y="240" width="260" height="200" font="body" size="15" color="ink" line-height="1.8">
+    <ul bullet="—"><li>AWS</li><li>Azure</li><li>Google Cloud</li><li>Oracle Cloud</li></ul>
+  </text>
+
+  <text x="380" y="200" width="260" height="30" font="strong" size="16" color="accent" wrap="true">SISTEMAS</text>
+  <text x="380" y="240" width="260" height="200" font="body" size="15" color="ink" line-height="1.8">
+    <ul bullet="—"><li>SAP</li><li>AS400</li><li>DB2</li><li>Control-M</li><li>GeneXus</li></ul>
+  </text>
+
+  <text x="680" y="200" width="260" height="30" font="strong" size="16" color="accent" wrap="true">DADOS</text>
+  <text x="680" y="240" width="260" height="200" font="body" size="15" color="ink" line-height="1.8">
+    <ul bullet="—"><li>Snowflake</li><li>Power BI</li><li>Oracle DB</li></ul>
+  </text>
+
+  <text x="980" y="200" width="260" height="30" font="strong" size="16" color="accent" wrap="true">MODERNIZAÇÃO</text>
+  <text x="980" y="240" width="260" height="200" font="body" size="15" color="ink" line-height="1.8">
+    <ul bullet="—"><li>Docker</li><li>Kubernetes</li><li>VMware</li><li>Linux / Windows</li></ul>
+  </text>
+
+  <text x="1180" y="680" width="60" height="24" font="caption" color="muted" align="right" wrap="false">14</text>
+</slide>
