@@ -23,7 +23,7 @@
       "name": "NetSecBR",
       "url": "https://netsecbr.com.br",
       "logo": "https://netsecbr.com.br/assets/logos/logo.png",
-      "description": "Consultoria boutique especializada em tecnologia, operações críticas, inteligência artificial e transformação digital."
+      "description": "Consultoria especializada em tecnologia, operações críticas, inteligência artificial e transformação digital."
     }
     </script>
     
@@ -55,9 +55,19 @@
         
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 2rem;
             margin-top: 4rem;
+        }
+        @media (max-width: 1200px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
         }
         .feature-card {
             background: var(--color-white);
@@ -192,7 +202,7 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <a href="index.html" class="logo" style="color: white;">NetSec<span style="color: var(--color-secondary);">BR</span></a>
-                    <p style="margin-top: 1rem; font-size: 0.95rem;">Consultoria boutique especializada em tecnologia, operações críticas, IA e transformação digital.</p>
+                    <p style="margin-top: 1rem; font-size: 0.95rem;">Consultoria especializada em tecnologia, operações críticas, IA e transformação digital.</p>
                 </div>
                 <div class="footer-col">
                     <h4>Empresa</h4>
