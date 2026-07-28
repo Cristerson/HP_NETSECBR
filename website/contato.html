@@ -123,30 +123,30 @@
 
             <!-- Formulário -->
             <div class="contact-form">
-                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Nossos executivos entrarão em contato em breve.');">
+                <form action="https://formspree.io/f/xyzpqrst" method="POST">
                     <div class="form-group">
-                        <label for="nome">Nome Completo</label>
-                        <input type="text" id="nome" class="form-control" required>
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="empresa">Empresa</label>
-                        <input type="text" id="empresa" class="form-control" required>
+                        <input type="text" id="empresa" name="empresa" class="form-control" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="cargo">Cargo</label>
-                        <input type="text" id="cargo" class="form-control" required>
+                        <input type="text" id="cargo" name="cargo" class="form-control" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="email">Email Corporativo</label>
-                        <input type="email" id="email" class="form-control" required>
+                        <input type="email" id="email" name="email" class="form-control" required>
                     </div>
                     
                     <div class="form-group">
-                        <label for="mensagem">Como podemos ajudar?</label>
-                        <textarea id="mensagem" class="form-control" required></textarea>
+                        <label for="message">Como podemos ajudar?</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary" style="width: 100%;">Solicitar Contato</button>

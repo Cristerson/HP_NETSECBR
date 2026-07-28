@@ -24,25 +24,40 @@
             border-bottom: 2px solid var(--color-light-gray);
             padding-bottom: 0.5rem;
             margin-bottom: 2rem;
+            color: var(--color-primary);
         }
         .tech-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 2rem;
         }
         .tech-item {
-            background: var(--color-light-gray);
-            padding: 1.5rem 1rem;
+            background: var(--color-white);
+            padding: 2rem 1rem;
             text-align: center;
-            border-radius: 4px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             font-weight: 600;
             color: var(--color-dark-gray);
             transition: all var(--transition-fast);
+            border-bottom: 3px solid transparent;
         }
         .tech-item:hover {
-            background: var(--color-secondary);
-            color: var(--color-white);
-            transform: translateY(-2px);
+            border-bottom-color: var(--color-secondary);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        .tech-logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tech-name {
+            font-size: 0.95rem;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -75,48 +90,194 @@
     <section class="section">
         <div class="container">
             
+            <!-- Cloud -->
             <div class="tech-category">
-                <h2>Cloud & Infraestrutura</h2>
+                <h2>☁️ Cloud</h2>
                 <div class="tech-grid">
-                    <div class="tech-item">AWS</div>
-                    <div class="tech-item">Microsoft Azure</div>
-                    <div class="tech-item">Google Cloud</div>
-                    <div class="tech-item">Oracle Cloud</div>
-                    <div class="tech-item">VMware</div>
-                    <div class="tech-item">Linux</div>
-                    <div class="tech-item">Windows Server</div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟠</div>
+                        <div class="tech-name">AWS</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔵</div>
+                        <div class="tech-name">Microsoft Azure</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Google Cloud</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔶</div>
+                        <div class="tech-name">Oracle Cloud</div>
+                    </div>
                 </div>
             </div>
 
+            <!-- ERP -->
             <div class="tech-category">
-                <h2>Sistemas Corporativos & ERP</h2>
+                <h2>💼 Sistemas Corporativos & ERP</h2>
                 <div class="tech-grid">
-                    <div class="tech-item">SAP</div>
-                    <div class="tech-item">AS400</div>
-                    <div class="tech-item">Control-M</div>
-                    <div class="tech-item">GeneXus</div>
-                    <div class="tech-item">LabVIEW</div>
+                    <div class="tech-item">
+                        <div class="tech-logo">💚</div>
+                        <div class="tech-name">SAP</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Oracle</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟦</div>
+                        <div class="tech-name">AS400</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">⚙️</div>
+                        <div class="tech-name">Control-M</div>
+                    </div>
                 </div>
             </div>
 
+            <!-- BI & Dados -->
             <div class="tech-category">
-                <h2>Dados & Banco de Dados</h2>
+                <h2>📊 BI & Dados</h2>
                 <div class="tech-grid">
-                    <div class="tech-item">Oracle DB</div>
-                    <div class="tech-item">DB2</div>
-                    <div class="tech-item">SQL Server</div>
-                    <div class="tech-item">Snowflake</div>
-                    <div class="tech-item">Power BI</div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟨</div>
+                        <div class="tech-name">Power BI</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">❄️</div>
+                        <div class="tech-name">Snowflake</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Oracle DB</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟦</div>
+                        <div class="tech-name">DB2</div>
+                    </div>
                 </div>
             </div>
 
+            <!-- Infraestrutura & Redes -->
             <div class="tech-category">
-                <h2>Modernização & Containers</h2>
+                <h2>🖥️ Infraestrutura & Redes</h2>
                 <div class="tech-grid">
-                    <div class="tech-item">Docker</div>
-                    <div class="tech-item">Kubernetes</div>
-                    <div class="tech-item">Microserviços</div>
-                    <div class="tech-item">DevSecOps</div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🐧</div>
+                        <div class="tech-name">Linux</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🪟</div>
+                        <div class="tech-name">Windows Server</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟣</div>
+                        <div class="tech-name">VMware</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟠</div>
+                        <div class="tech-name">Cisco</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segurança Patrimonial -->
+            <div class="tech-category">
+                <h2>🔒 Segurança Patrimonial</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-logo">🟡</div>
+                        <div class="tech-name">Intelbras</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔵</div>
+                        <div class="tech-name">Axis</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟢</div>
+                        <div class="tech-name">Hikvision</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cibersegurança -->
+            <div class="tech-category">
+                <h2>🛡️ Cibersegurança</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Rapid7</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟣</div>
+                        <div class="tech-name">Ominisa</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Palo Alto</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🟠</div>
+                        <div class="tech-name">Cisco</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Center & Parceiros -->
+            <div class="tech-category">
+                <h2>🏢 Data Center & Parceiros</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-logo">🟠</div>
+                        <div class="tech-name">Equinix</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔵</div>
+                        <div class="tech-name">Edge Connection</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Tencent Cloud</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Observabilidade -->
+            <div class="tech-category">
+                <h2>📈 Observabilidade</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-logo">🟠</div>
+                        <div class="tech-name">Grafana</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔴</div>
+                        <div class="tech-name">Prometheus</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔵</div>
+                        <div class="tech-name">IBM</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modernização & Containers -->
+            <div class="tech-category">
+                <h2>📦 Modernização & Containers</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-logo">🐳</div>
+                        <div class="tech-name">Docker</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">☸️</div>
+                        <div class="tech-name">Kubernetes</div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-logo">🔄</div>
+                        <div class="tech-name">DevSecOps</div>
+                    </div>
                 </div>
             </div>
 
@@ -126,7 +287,39 @@
     <!-- Footer reduzido -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-bottom" style="border-top: none;">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white;">NetSec<span style="color: var(--color-secondary);">BR</span></a>
+                    <p style="margin-top: 1rem; font-size: 0.95rem;">Consultoria especializada em tecnologia, operações críticas, IA e transformação digital.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="sobre.html">Quem Somos</a></li>
+                        <li><a href="solucoes.html">Soluções por Segmento</a></li>
+                        <li><a href="tecnologias.html">Tecnologias Suportadas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html">Consultoria & Projetos</a></li>
+                        <li><a href="servicos.html">Cibersegurança & Cloud</a></li>
+                        <li><a href="servicos.html">Operações & NOC</a></li>
+                        <li><a href="servicos.html">Inteligência Artificial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="https://wa.me/5511944689800" target="_blank">WhatsApp: (11) 9 4468-9800</a></li>
+                        <li><a href="mailto:contato@netsecbr.com.br">contato@netsecbr.com.br</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li><a href="https://titan.hostgator.com.br/login/" target="_blank" style="font-size: 0.85rem; opacity: 0.7;">Webmail</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
                 &copy; 2026 NetSecBR. Todos os direitos reservados.
             </div>
         </div>
